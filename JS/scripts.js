@@ -3,7 +3,7 @@ const searchInput = document.getElementById("search-input")
 const recipes = [
     {
         recipeName: "teste",
-        image: "./images/template.jpg",
+        image: "./images/template.webp",
         ingredients: ["teste", "teste", "teste"]
     }
 ];
@@ -13,7 +13,7 @@ function createRecipe(list) {
     container.innerHTML = "";
 
     list.forEach(recipe => {
-        const card = document.createElement("div");
+        const card = document.createElement("article");
         card.classList.add("recipe-card");
 
         card.innerHTML = `

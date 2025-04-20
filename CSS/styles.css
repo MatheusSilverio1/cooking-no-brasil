@@ -14,7 +14,7 @@
 }
 
 header {
-    background-image: url('./images/template.jpg');
+    background-image: url('../images/header-background.webp');
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -85,7 +85,7 @@ main {
     padding: 2rem;
     box-shadow: 10px 10px 20px 1px #000;
     border-radius: 10px;
-    background-image: url("./images/fundo-card.png");
+    background-image: url("../images/card-background.webp");
 }
 
 .tutorial-video {
