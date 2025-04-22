@@ -2,10 +2,29 @@ const searchInput = document.getElementById("search-input")
 
 const recipes = [
     {
-        recipeName: "teste",
-        image: "./images/template.webp",
-        ingredients: ["teste", "teste", "teste"]
-    }
+        recipeName: "Strogonoff",
+        image: "../images/strogonoff.webp",
+        link: "https://www.instagram.com/p/DIuO5JGJ8ZX/?img_index=1",
+        ingredients: ["peito de frango", "cebola", "alho", "manteiga", "ketchup", "mostarda", "creme de leite", "sal", "pimenta do reino", "batata palha"]
+    },
+    {
+        recipeName: "Risoto de Camarão",
+        image: "../images/risoto de camarao.webp",
+        link: "",
+        ingredients: ["camarão", "arroz para risoto", "alho poró", "cebola", "vinho branco", "caldo de camarão", "azeite", "óleo", "sal", "pimenta do reino"]
+    },
+    // {
+    //     recipeName: "Lasanha de Berinjela",
+    //     image: "../images/lasanha de berinjela.webp",
+    //     link: "",
+    //     ingredients: ["berinjela", "cebola", "alho", "molho de tomate", "azeitona", "mussarela", "presunto", "azeite", "requeijão", "sal", "pimenta do reino"]
+    // },
+    // {
+    //     recipeName: "Macarrao com Espinafre",
+    //     image: "../images/macarrao com molho de espinafre.webp",
+    //     link: "",
+    //     ingredients: ["macarrão", "alho", "espinafre", "creme de leite", "parmesão", "caldo de legumes", "sal", "pimenta calabresa"]
+    // }
 ];
 
 function createRecipe(list) {
@@ -17,7 +36,7 @@ function createRecipe(list) {
         card.classList.add("recipe-card");
 
         card.innerHTML = `
-        <a href="" class="tutorial-video">
+        <a href="${recipe.link}" class="tutorial-video">
           <img src="${recipe.image}" alt="resultado final da receita">
         </a>
         <div class="recipe-container">
