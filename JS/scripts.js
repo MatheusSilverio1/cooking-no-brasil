@@ -10,7 +10,7 @@ const recipes = [
     {
         recipeName: "Risoto de Camarão",
         image: "../images/risoto de camarao.webp",
-        link: "",
+        link: "https://www.instagram.com/p/DIxItq3pN0D/?img_index=1",
         ingredients: ["camarão", "arroz para risoto", "alho poró", "cebola", "vinho branco", "caldo de camarão", "azeite", "óleo", "sal", "pimenta do reino"]
     },
     // {
